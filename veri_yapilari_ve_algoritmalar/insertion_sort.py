@@ -3,9 +3,9 @@
 # Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 # Big-O gösterimini yazınız.
 # Time Complexity:
-#   Average case: Aradığımız sayının ortada olması,
-#   Worst case: Aradığımız sayının sonda olması,
-#   Best case: Aradığımız sayının dizinin en başında olması.
+#   Average case: Aradığımız sayının ortada olması, O(n)
+#   Worst case: Aradığımız sayının sonda olması, O(n^2)
+#   Best case: Aradığımız sayının dizinin en başında olması. O(n^2)
 # Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 #
 #
@@ -16,8 +16,6 @@
 #       [2,3,7,5,8,9,4,15,6]
 #       [2,3,4,7,5,8,9,15,6]
 #       [2,3,4,5,7,8,9,15,6]
-
-# Big-O gosterimi: n^2-n ??
 
 # 18 sayısı avarage case senaryosuna girer
 
